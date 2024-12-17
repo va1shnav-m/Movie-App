@@ -17,7 +17,6 @@
         android:layout_marginBottom="70dp"
         android:layout_marginTop="30dp"
         android:textStyle="bold"/>
-
     <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -25,38 +24,47 @@
 
         android:background="@drawable/baseline_all_inclusive_24"/>
 
-    <EditText
-        android:layout_width="match_parent"
-        android:drawableLeft="@drawable/baseline_account_circle_24"
-        android:layout_height="wrap_content"
-        android:hint=" Username"
-        android:background="@color/white"
-        android:textStyle="italic"
-        android:textColor="#83A2A0A0"
-        android:id="@+id/username"
-        android:layout_marginHorizontal="10dp"
-        android:layout_marginTop="50dp"
-        android:textSize="30dp"/>
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint=" Password"
-        android:background="@color/white"
-        android:textStyle="italic"
-        android:textColor="#83A2A0A0"
-        android:id="@+id/password"
-       android:drawableLeft="@drawable/baseline_enhanced_encryption_24"
-        android:layout_margin="10dp"
-        android:textSize="30dp"/>
+
+
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
-        android:text="LOGIN"
+        android:text="ADD MOVIE"
         android:background="@color/white"
-        android:textColor="#E600FF"
+        android:textColor="#6B6B6B"
         android:textStyle="bold"
-        android:id="@+id/login"
+        android:id="@+id/add"
+        android:layout_marginHorizontal="100dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="SEARCH MOVIE"
+        android:background="@color/white"
+        android:textColor="#6B6B6B"
+        android:textStyle="bold"
+        android:id="@+id/search"
+        android:layout_marginHorizontal="100dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="VIEW MOVIE"
+        android:background="@color/white"
+        android:textColor="#6B6B6B"
+        android:textStyle="bold"
+        android:id="@+id/view"
+        android:layout_marginHorizontal="100dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="EXIT"
+        android:background="@color/white"
+        android:textColor="#6B6B6B"
+        android:textStyle="bold"
+        android:id="@+id/exit"
         android:layout_marginHorizontal="100dp"/>
 
 
